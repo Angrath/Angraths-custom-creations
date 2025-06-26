@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>About | Angrath's Custom Creations</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="hero small">
+    <h1>Meet the Maker</h1>
+    <p class="tagline">Fueling creativity with fire and focus</p>
+  </header>
+
+  <main class="about-content">
+    <section class="bio">
+      <h2>Angrath's Origins</h2>
+      <p>Hey, I’m Shane—the creative force behind Angrath’s Custom Creations. What started as a side-hustle passion project quickly became a personal forge for imagination, expression, and skill-building. My workshop is home to 3D printers, button machines, woodcraft tools—and counting. As new machines arrive, so do new possibilities.</p>
+
+      <p>Whether I'm prototyping a custom figurine or crafting a box from salvaged wood, every project is built with precision and purpose. I believe in creativity without limits, and I aim to turn bold ideas into bold realities.</p>
+    </section>
+
+    <section class="vision">
+      <h2>From Sparks to Legacy</h2>
+      <p>I don’t just make objects—I build storypieces. Each item in the shop carries its own flavor, vibe, and inspiration. And this is just the beginning. My goal is to expand into laser engraving, resin casting, and other mediums that push the boundary of custom work.</p>
+
+      <p>If you want something one-of-a-kind, handcrafted, and unforgettable—you’re in the right place.</p>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 Angrath's Custom Creations</p>
+  </footer>
+</body>
+</html>
+.about-content {
+  padding: 2rem;
+  max-width: 900px;
+  margin: auto;
+  text-align: left;
+  line-height: 1.6;
+}
+
+.about-content h2 {
+  color: #8B0000;
+  margin-top: 2rem;
+}
+
+.bio, .vision {
+  background-color: #1A1A1A;
+  padding: 1.5rem;
+  border-radius: 8px;
+  margin-bottom: 1.5rem;
+  box-shadow: 0 4px 10px rgba(128, 0, 128, 0.4);
+}
