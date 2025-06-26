@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Your Cart</title>
+  <style>
+    body { font-family: Arial, sans-serif; padding: 20px; }
+    .cart-item { display: flex; justify-content: space-between; margin-bottom: 10px; }
+    .total { font-weight: bold; margin-top: 20px; }
+    .checkout-btn { margin-top: 20px; padding: 10px 15px; background-color: #4CAF50; color: white; border: none; }
+  </style>
+</head>
+<body>
+  <h1>Your Shopping Cart</h1>
+
+  <div class="cart-item">
+    <span>Product Name</span>
+    <span>$19.99</span>
+  </div>
+  <div class="cart-item">
+    <span>Another Item</span>
+    <span>$9.99</span>
+  </div>
+
+  <div class="total">Total: $29.98</div>
+  <button class="checkout-btn">Proceed to Checkout</button>
+</body>
+</html>
