@@ -1,0 +1,83 @@
+<DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Products | Angrath's Custom Creations</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="hero small">
+    <h1>Explore My Creations</h1>
+    <p class="tagline">Unique builds across mediums</p>
+  </header>
+
+  <main class="products-grid">
+    <section class="product-card">
+      <img src="images/3dprint-placeholder.jpg" alt="3D Printed Dragon" />
+      <h3>3D Printed Dragon</h3>
+      <p>A fierce tabletop dragon, printed in premium resin.</p>
+      <a href="product-dragon.html" class="details-button">View Details</a>
+    </section>
+
+    <section class="product-card">
+      <img src="images/button-placeholder.jpg" alt="Custom Gamer Button Set" />
+      <h3>Gamer Button Set</h3>
+      <p>Pin-back buttons with classic game icons. Set of 5.</p>
+      <a href="product-buttons.html" class="details-button">View Details</a>
+    </section>
+
+    <section class="product-card">
+      <img src="images/woodbox-placeholder.jpg" alt="Wood Trinket Box" />
+      <h3>Wooden Trinket Box</h3>
+      <p>Handcrafted with charred edges and magnetic clasp.</p>
+      <a href="product-box.html" class="details-button">View Details</a>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 Angrath's Custom Creations</p>
+  </footer>
+</body>
+</html>
+.hero.small {
+  padding: 2rem;
+}
+
+.products-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 2rem;
+  padding: 2rem;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.product-card {
+  background-color: #1A1A1A;
+  padding: 1rem;
+  border-radius: 8px;
+  text-align: center;
+  box-shadow: 0 4px 8px rgba(128, 0, 128, 0.4);
+}
+
+.product-card img {
+  width: 100%;
+  height: auto;
+  border-radius: 6px;
+}
+
+.details-button {
+  display: inline-block;
+  margin-top: 1rem;
+  background-color: #8B0000;
+  color: #fff;
+  padding: 0.5rem 1rem;
+  border-radius: 4px;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.details-button:hover {
+  background-color: #A00000;
+}
