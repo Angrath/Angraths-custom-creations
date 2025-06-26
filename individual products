@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>3D Printed Dragon | Angrath's Custom Creations</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="hero small">
+    <h1>3D Printed Dragon</h1>
+    <p class="tagline">A legendary beast from the forge</p>
+  </header>
+
+  <main class="product-detail">
+    <img src="images/3dprint-placeholder.jpg" alt="3D Printed Dragon" />
+    <div class="detail-text">
+      <p>This fierce dragon was printed using high-res resin for dramatic tabletop presence. Available in multiple colors, it brings heat to any game night or shelf display.</p>
+      <ul>
+        <li><strong>Material:</strong> Resin</li>
+        <li><strong>Height:</strong> 6 inches</li>
+        <li><strong>Variants:</strong> Red, Silver, Bronze</li>
+      </ul>
+      <a href="#" class="cta-button">Add to Cart</a>
+    </div>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 Angrath's Custom Creations</p>
+  </footer>
+</body>
+</html>
+product-detail {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 2rem;
+  gap: 1.5rem;
+}
+
+.product-detail img {
+  max-width: 400px;
+  width: 100%;
+  border-radius: 8px;
+  box-shadow: 0 4px 12px rgba(139, 0, 0, 0.6);
+}
+
+.detail-text {
+  max-width: 600px;
+  text-align: left;
+  background-color: #1A1A1A;
+  padding: 1.5rem;
+  border-radius: 6px;
+}
+
+.detail-text ul {
+  list-style-type: square;
+  padding-left: 1.2rem;
+  margin-top: 1rem;
+}
