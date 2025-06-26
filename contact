@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Contact | Angrath's Custom Creations</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="hero small">
+    <h1>Get in Touch</h1>
+    <p class="tagline">Questions? Ideas? Let’s build something legendary.</p>
+  </header>
+
+  <main class="contact-section">
+    <form class="contact-form">
+      <label for="name">Name</label>
+      <input type="text" id="name" placeholder="Your Name" required />
+
+      <label for="email">Email</label>
+      <input type="email" id="email" placeholder="your@email.com" required />
+
+      <label for="message">Message</label>
+      <textarea id="message" rows="6" placeholder="Let me know what you're imagining..." required></textarea>
+
+      <button type="submit">Send Message</button>
+    </form>
+
+    <div class="alt-contact">
+      <p>Or reach out via email: <a href="mailto:Angrathscustomcreations@gmail.com">Angrathscustomcreations@gmail.com</a></p>
+    </div>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 Angrath's Custom Creations</p>
+  </footer>
+</body>
+</html>
+.contact-section {
+  padding: 2rem;
+  max-width: 600px;
+  margin: 0 auto;
+  background-color: #1A1A1A;
+  border-radius: 8px;
+  box-shadow: 0 4px 12px rgba(139, 0, 0, 0.5);
+}
+
+.contact-form {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.contact-form label {
+  font-weight: bold;
+  color: #F5F5F5;
+}
+
+.contact-form input,
+.contact-form textarea {
+  padding: 0.8rem;
+  border: none;
+  border-radius: 4px;
+  background-color: #333;
+  color: #fff;
+}
+
+.contact-form button {
+  background-color: #8B0000;
+  color: #fff;
+  padding: 0.7rem;
+  border: none;
+  border-radius: 4px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.contact-form button:hover {
+  background-color: #A00000;
+}
+
+.alt-contact {
+  margin-top: 1.5rem;
+  text-align: center;
+  font-size: 0.9rem;
+}
+
+.alt-contact a {
+  color: #800080;
+  text-decoration: underline;
+}
